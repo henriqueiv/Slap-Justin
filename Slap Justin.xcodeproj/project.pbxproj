@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62B928DF1A9D069000DD70CB /* punch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62B928DE1A9D069000DD70CB /* punch.mp3 */; };
 		62EE20AE1A9D0170000F9DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EE20AD1A9D0170000F9DEB /* main.m */; };
 		62EE20B11A9D0170000F9DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EE20B01A9D0170000F9DEB /* AppDelegate.m */; };
 		62EE20B41A9D0170000F9DEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EE20B31A9D0170000F9DEB /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62B928DE1A9D069000DD70CB /* punch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = punch.mp3; sourceTree = "<group>"; };
 		62EE20A81A9D0170000F9DEB /* Slap Justin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slap Justin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62EE20AC1A9D0170000F9DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62EE20AD1A9D0170000F9DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				62EE20A91A9D0170000F9DEB /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		62EE20A91A9D0170000F9DEB /* Products */ = {
 			isa = PBXGroup;
@@ -81,6 +84,7 @@
 		62EE20AA1A9D0170000F9DEB /* Slap Justin */ = {
 			isa = PBXGroup;
 			children = (
+				62B928DE1A9D069000DD70CB /* punch.mp3 */,
 				62EE20AF1A9D0170000F9DEB /* AppDelegate.h */,
 				62EE20B01A9D0170000F9DEB /* AppDelegate.m */,
 				62EE20B21A9D0170000F9DEB /* ViewController.h */,
@@ -168,6 +172,7 @@
 				TargetAttributes = {
 					62EE20A71A9D0170000F9DEB = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 8WCPHDZJPJ;
 					};
 					62EE20C01A9D0170000F9DEB = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -200,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62EE20B71A9D0170000F9DEB /* Main.storyboard in Resources */,
+				62B928DF1A9D069000DD70CB /* punch.mp3 in Resources */,
 				62EE20BC1A9D0170000F9DEB /* LaunchScreen.xib in Resources */,
 				62EE20B91A9D0170000F9DEB /* Images.xcassets in Resources */,
 			);
@@ -348,6 +354,7 @@
 				INFOPLIST_FILE = "Slap Justin/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,6 +365,7 @@
 				INFOPLIST_FILE = "Slap Justin/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -414,6 +422,7 @@
 				62EE20CD1A9D0170000F9DEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62EE20CE1A9D0170000F9DEB /* Build configuration list for PBXNativeTarget "Slap JustinTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				62EE20D01A9D0170000F9DEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UIButton *tapMe;
+    IBOutlet UISlider *volumeSlider;
+}
 
+@property (strong, nonatomic) AVAudioPlayer *player;
+
+- (void)playAudio;
+- (void)stopAudio;
 
 @end
 
